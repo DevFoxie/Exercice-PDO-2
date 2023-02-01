@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="/css/custom2.css">
+    <link rel="stylesheet" href="./css/custom2.css">
     <!-- CUSTOM JS -->
     <link rel="stylesheet" href="/js/main.js">
     <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 
     <title>Entrées</title>
 </head>
@@ -49,14 +49,14 @@
             <!-- BirthDate -->
             <div class="form-group">
                 <label for="birthdate">Année de naissance</label>
-                <input type="text" id="birthdate" name="birthdate" placeholder="1990" required minlength="3" maxlength="4" />
+                <input type="text" id="birthdate" name="birthdate" placeholder="1990" required minlength="4" maxlength="4" />
             </div>
             <!-- Email Address -->
             <div class="form-group">
                 <label for="mail">Adresse mail</label>
                 <input type="mail" id="mail" name="mail" placeholder="mail@address.com" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" />
             </div>
-            <button type="submit">Créer la nouvelle fiche patient</button>
+            <button type="submit" onclick="return showConfirmDialog();">Créer la nouvelle fiche patient</button>
         </form>
         <!-- Error/Success Message -->
         <div class="message-container">
@@ -64,16 +64,8 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="./js/patient-confirmation.js"></script>
 </body>
 
 </html>

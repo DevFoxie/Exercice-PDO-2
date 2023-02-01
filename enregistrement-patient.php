@@ -6,15 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="./css/custom.css">
 
     <title>Données patients</title>
 
 </head>
 
 <body>
-
-    <h1>Voici les données patients</h1>
 
     <?php
     $dns = "mysql:host=127.0.0.1;dbname=hospitalE2N;charset=utf8";
@@ -51,12 +49,13 @@
     ?>
 
     <?php
-    echo "<p>Identifiant : " . $_POST["id"] . "<br>";
+    /*echo "<p>Identifiant : " . $_POST["id"] . "<br>";
     echo "<p>Nom : " . $_POST["lastname"] . "<br>";
     echo "<p>Prénom : " . $_POST["firstname"] . "<br>";
     echo "<p>Numéro de téléphone : " . $_POST["phone"] . "<br>";
     echo "<p>Année de naissance : " . $_POST["birthdate"] . "<br>";
     echo "<p>Adresse mail : " . $_POST["mail"] . "<br>";
+    */
     ?>
 
 </body>
