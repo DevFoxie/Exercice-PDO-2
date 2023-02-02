@@ -18,13 +18,12 @@ a {
     margin-top: 20px
 }
 
-a:hover{
+a:hover {
     color: greenyellow;
 }
 
-img{
+img {
     margin-top: 100px;
     margin-left: 35%;
     margin-bottom: 50px;
 }
-

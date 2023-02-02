@@ -20,8 +20,6 @@
 
 <body>
 
-
-
     <div class="container">
         <h1>Formulaire d'entrée</h1>
         <!-- Form -->

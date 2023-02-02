@@ -32,7 +32,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active text-white" aria-current="page" href="index.php">Accueil</a>
                     <a class="nav-link text-white" href="ajout-patient.php">Formulaire d'entrée</a>
                     <a class="nav-link text-white " href="liste-patients.php">Liste des patients</a>
                     <a class="nav-link text-white " href="ajout-rendezvous.php">Prendre un RDV</a>
@@ -41,17 +41,21 @@
         </div>
     </nav>
 
-    <a href="ajout-patient.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i><p class="mx-3">Vers le formulaire pour les nouvelles entrées</p></a>
+    <a href="ajout-patient.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i>
+        <p class="mx-3">Vers le formulaire pour les nouvelles entrées</p>
+    </a>
     <br>
-    <a href="liste-patients.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i><p class="mx-3">Vers la liste des patients</p></a>
+    <a href="liste-patients.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i>
+        <p class="mx-3">Vers la liste des patients</p>
+    </a>
     <br>
-    <a href="ajout-rendezvous.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i><p class="mx-3">Prendre un RDV</p></a>
+    <a href="ajout-rendezvous.php"><i class="fa-solid fa-arrow-right-long fa-fade"></i>
+        <p class="mx-3">Prendre un RDV</p>
+    </a>
 
     <div class="icon">
         <img src="https://cdn-icons-png.flaticon.com/512/3209/3209074.png" alt="hospital">
     </div>
-
-
 
 
     <!--FONTAWESOME SCRIPT-->
